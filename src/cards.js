@@ -38,5 +38,47 @@ export const cards = [
         minimumTime: 30,
         rating: 4.7,
         maxTime: 40
+    },    {
+        name: "Subenshi",
+        image:"./image 23.png",
+        deliveryTax: 2.30,
+        minimumTime: 30,
+        rating: 4.7,
+        maxTime: 40
+    },    {
+        name: "KFC",
+        image:"./image 20.png",
+        deliveryTax: 2.30,
+        minimumTime: 30,
+        rating: 4.7,
+        maxTime: 40
+    },    {
+        name: "KFC",
+        image:"./image 20.png",
+        deliveryTax: 2.30,
+        minimumTime: 30,
+        rating: 4.7,
+        maxTime: 40
+    },    {
+        name: "KFC",
+        image:"./image 20.png",
+        deliveryTax: 2.30,
+        minimumTime: 30,
+        rating: 4.7,
+        maxTime: 40
+    },    {
+        name: "KFC",
+        image:"./image 20.png",
+        deliveryTax: 2.30,
+        minimumTime: 30,
+        rating: 4.7,
+        maxTime: 40
+    },    {
+        name: "KFC",
+        image:"./image 20.png",
+        deliveryTax: 2.30,
+        minimumTime: 30,
+        rating: 4.7,
+        maxTime: 40
     },
 ]
