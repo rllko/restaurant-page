@@ -8,7 +8,7 @@ function Header(){
             <img className="ml-2 my-auto w-[30px] h-[30px]" src="./icon-park-outline_local-two.png"  alt="" />
             <input type="text" className="bg-zinc-100 w-[89%] outline-none h-[50%] text-2xl font-semibold m-2 placeholder-zinc-500" placeholder="Rua Doutor Lourenço Peixinho, 19" name="" id="" />
         </div>
-        <div className="flex  gap-3">
+        <div className="flex gap-6">
             <div>
                 <div className="relative rounded-lg bg-zinc-300 cursor-pointer p-2 m-auto">
                     <img src="./ion_cart-sharp.png" width={35} alt="" />

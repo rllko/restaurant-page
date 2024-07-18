@@ -1,6 +1,6 @@
 function Footer(){
     return (
-    <footer className="px-12 flex flex-col text-teal-50 mt-7 w-[100vw] bg-zinc-900 ">
+    <footer className="px-12 flex flex-col text-teal-50 mt-7 w-[100%] bg-zinc-900 ">
         <div className="w-full border-b-2 border-zinc-800 max-w-7xl mx-auto">
             <h2 className="font-bold mt-6 mb-2 ml-6">FoodDash</h2>
         </div>
