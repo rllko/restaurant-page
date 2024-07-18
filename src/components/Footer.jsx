@@ -1,12 +1,12 @@
 function Footer(){
     return (
-    <footer className="px-12 flex flex-col text-teal-50 mt-7 bg-zinc-900 w-full">
-        <div className="w-full border-b-2 border-zinc-800">
+    <footer className="px-12 flex flex-col text-teal-50 mt-7 w-[100vw] bg-zinc-900 ">
+        <div className="w-full border-b-2 border-zinc-800 max-w-7xl mx-auto">
             <h2 className="font-bold mt-6 mb-2 ml-6">FoodDash</h2>
         </div>
-        <div className="flex justify-between">
+        <div className="flex justify-between gap-28 mx-auto max-w-7xl ">
             <div>
-                <p className="text-[2.4em] font-bold text-orange-400">Conta Cliente</p>
+                <p className="text-[2.4em] font-bold text-orange-400 max-w-7xl">Conta Cliente</p>
                 <div><span className="hover:underline cursor-pointer">Iniciar Sessão</span></div>
                 <div><span className="hover:underline cursor-pointer">Registar-se</span></div>
             </div>

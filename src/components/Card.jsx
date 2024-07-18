@@ -11,7 +11,7 @@ function Card({name,image,deliveryTax,rating,minimumTime,maxTime}){
                 </div>
                 <div className="flex justify-between">
                     <p className="font-semibold text-[0.70em] w-full">Taxa de Entrega: {deliveryTax}€</p>
-                    <p className=" text-[0.7em] w-[48%]">{minimumTime}-{maxTime} min</p>
+                    <p className=" text-[0.7em] w-[31%]">{minimumTime}-{maxTime} min</p>
                 </div>
             </div>
         </div>)

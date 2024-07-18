@@ -1,7 +1,7 @@
 function FoodNav(){
     return (
-    <div className="flex flex-row gap-1 my-7">
-        <div className="relative rounded-lg cursor-pointer w-full">
+    <div className=" flex flex-row gap-1 my-7 lg:max-w-lg xl:max-w-7xl mx-auto">
+        <div className="relative rounded-lg cursor-pointer w-full ">
                 <img src="./mercearia icon.png" width={55} alt="" />
                 <div className="relative -left-4 font-semibold text-xl">
                     Mercearia

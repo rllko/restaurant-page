@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <div className='max-w-7xl mx-auto'>
+    <div className=''>
     <Header/>
     <NavBar/>
     <FoodNav/>

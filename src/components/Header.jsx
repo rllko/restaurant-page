@@ -1,6 +1,6 @@
 function Header(){
     return(
-    <header className="flex justify-between  mt-5">
+    <header className="flex justify-between mx-auto max-w-7xl mt-5">
         <div className=" text-orange-300 text-5xl font-bold cursor-pointer" >
         Food<span className="text-black">Dash</span>
         </div>
