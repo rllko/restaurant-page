@@ -15,7 +15,7 @@ function App() {
       const itemWidth = parseInt(
         getComputedStyle(ref.current.children[0]).width
       );
-      ref.current.scrollLeft = scrollLeft - itemWidth;
+      ref.current.scrollLeft = scrollLeft - itemWidth*3;
     });
   }
 
@@ -25,7 +25,7 @@ function App() {
       const itemWidth = parseInt(
         getComputedStyle(ref.current.children[0]).width
       );
-      ref.current.scrollLeft = scrollLeft + itemWidth;
+      ref.current.scrollLeft = scrollLeft + itemWidth*3;
     });
   }
 

@@ -11,7 +11,7 @@ function CardCarousel({title,items,handlePrevious,handleNext}){
             <div onClick={() => handlePrevious(ref)} class="text-5xl cursor-pointer p-2 flex items-center justify-center mr-auto">
                 <i class="fas fa-angle-left"></i>
             </div>
-            <div ref={ref} className="flex overflow-auto mb-4 max-w-screen-xl snap-x scroll-smooth">
+            <div ref={ref} className="flex overflow-auto mb-4 max-w-screen-xl transition-all duration-200 scroll-smooth">
                 {
                     items.map((item,index) => (
                         <Card key={index} name={item.name} image={item.image} 
